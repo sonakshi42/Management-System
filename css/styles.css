@@ -1,0 +1,509 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #E8FAFE;
+  font-family: 'Patrick Hand', monospace;
+}
+
+
+/** HEADER **/
+#header-nav {
+  background-color: #fff;
+  font-family: fantasy;
+  border-radius: 0;
+  border: 10;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  top: 0;
+  width: 100%
+}
+
+.navbar-brand {
+  padding-left: 30px;
+}
+
+#nav-list {
+  margin-top: 20px;
+}
+
+#nav-list a {
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a span {
+  font-size: 18em;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: 30px;
+}
+
+#collapsable-nav {
+  color: #268282;
+}
+
+#col1 {
+  color: #268282;
+}
+/* END HEADER */
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 50px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #1D2123;
+  border-top: 0;
+  bottom: 0;
+}
+
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#testimonials {
+  font-size: 16px;
+}
+
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
+}
+
+#links {
+  font-size: 25px;   
+}
+
+#space {
+  padding-top: 20px;
+}  
+/* END FOOTER */    
+
+
+/* HOME PAGE */
+#pull-right {
+  padding-top: 20px;
+  padding-left: 500px;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+#box {
+  width: 89%;
+  margin: auto;
+  background: #fff;
+  overflow: hidden;
+  padding: 15px;
+}
+
+#paragraph {
+  color: #2C5FB2;
+  font-weight: bold;
+  padding-left: 60px;
+}
+
+#why {
+  font-size: 20px;
+  padding-left: 120px;
+  font-family: sans-serif;
+}
+
+#expand {
+  font-size: 70px;
+  font-family: sans-serif;
+}
+
+#looking {
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 40px;
+  font-family: sans-serif;
+  margin-bottom: 90px;
+}
+
+#services {
+  color: #0D5BA5;
+  padding-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#headingsm {
+  color: #543FA3;
+  font-family: initial;
+}
+
+#content {
+  color: #000000;
+  padding-left: 110px;
+  text-align: justify;
+  font-family: cursive;
+}
+/* END HOME PAGE */
+
+
+/* ABOUT US PAGE*/
+#aboutus {
+  color: #2C5FB2; /*268282*/
+  font-size: 60px;
+  padding-left: 80px;
+  font-family: fantasy;
+}
+
+#aboutus-box {
+  background-color: #ffffff;
+  border-style: ridge;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+#aboutuscontent {
+  color: #4E5252;
+  font-family: sans-serif;
+  font-size: 18px;
+}
+
+#aboutusbox {
+  padding-top: 50px;
+  width: 89%;
+  margin: auto;
+  background: #F7F9FA;
+  overflow: hidden;
+  padding: 15px;
+}
+
+#photo1 {
+  border-radius: 5px;
+  background-color: #000;
+}
+/* END ABOUT US PAGE*/
+
+
+/* FEATURES PAGE*/
+#features-box {
+  background-color: #ffffff;
+  border-style: ridge;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+#box1 {
+  margin: 40px;
+  overflow: hidden;
+  width: auto;
+}
+
+#aboutsm {
+  color: #1073DD;
+  font-family: fantasy;
+}
+
+#contentabout {
+  color: #000000;
+  text-align: justify;
+}
+/* END FEATURES PAGE*/
+
+
+/* OUR COURSES*/
+#ourcourses-box {
+  background-color: #ffffff;
+  border-style: ridge;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+#ourcoursesbox {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+  background: #F7F9FA;
+  overflow: hidden;
+  padding: 15px;
+}
+
+#photo3 {
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+#coursesm {
+  color: #178AC4;
+  font-family: cursive;
+  margin-top: 20px;
+}
+/* END OUR COURSES PAGE*/
+
+
+/* CONTACK US PAGE*/
+#photo2 {
+  border-radius: 5px;
+  background-color: #000;
+  margin-right: 40px;
+}
+
+#contactusheading {
+  color: #EC574F;
+  font-family: cursive;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+#n1{
+  color: #000;
+  padding-right: 20px;
+}
+
+#contactus {
+  color: #268282;
+  font-size: 60px;
+  padding-left: 80px;
+  font-family: fantasy;
+}
+
+#contactus-box {
+  background-color: #ffffff;
+  border-style: ridge;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+#contactus {
+  margin: auto;
+  background: #fff;
+  padding: 15px;
+}
+
+#contactusbox {
+  padding-top: 50px;
+  width: 89%;
+  margin: auto;
+  background: #F7F9FA;
+  overflow: hidden;
+  padding: 15px;
+}
+
+input[type=text], select, textarea {
+  color: #000;
+  width: 40%; /* Full width */
+  padding: 8px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 5px; /* Add a top margin */
+  margin-bottom: 20px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+/* END CONTACT US PAGE*/
+
+
+#readmore-box {
+  background-color: #ffffff;
+  border-style: ridge;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+
+#contentreadme {
+  color: #000000;
+  text-align: justify;
+  font-family: cursive;
+  margin-bottom: 30px;
+}
+
+#readmorehead {
+  color: #119966;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+  font-family: cursive;
+}
+
+#lists ul li::before {
+  content: "\2022"; 
+  color: #000; 
+  font-weight: bolder;
+  display: inline-block; 
+  margin: 4px;
+  margin-left: -1em; 
+  margin-top: -3em;
+}
+
+li {
+  color: #000000;
+}
+
+#fee-collection-features {
+  color: #119966;
+  font-family: cursive;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  #Logo-img {
+    background: url('images/Logo.jpg') no-repeat;
+    width: 100px;
+    height: 100px;
+    margin: 5px 5px 5px 0;
+  }
+  /* End Header */
+
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Kosher cert */
+    font-size: .6em;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0; /* margin already exists on the whole row */
+  }
+  .panel-footer section hr {
+    width: 50%;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container .jumbotron {
+    margin-top: 30px;
+    padding: 0;
+  }
+  #menu-tile, #specials-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+
+  .menu-item-photo {
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price {
+    text-align: center;
+  }
+  .menu-item-description {
+    text-align: center;;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+  #menu-tile, #specials-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
